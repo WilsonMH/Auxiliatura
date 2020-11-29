@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ejercicios de Auxiliatura</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<header >PRACTICA DE AUXILIATURA PUNTOS EXTRA</header>
+	<section>
+		<div class="titulo">
+			<p><strong>1. DADO UN NUMERO DE DIGITOS CUALQUIERA HALLAR EL MAYOR, EL MENOR NUMERO Y EL
+NUMERO DE MODA.</strong></p>
+		</div>
+		<div class="box">
+			<form>
+				<label><strong>Numero:  </strong></label>
+				<input class="border" type="number" id="numero" name="" placeholder="Escribe un Número">
+				<button class="btn btn-green" onclick="">Limpiar</button>
+				<br>
+				<br>
+
+				<button class="btn btn-green" type="button" onclick="menor();">Menor</button>
+				<button class="btn btn-green" type="button" onclick="mayor();">Mayor</button>
+				<button class="btn btn-green" type="button" onclick="Numero_Moderno();">Numero Moderno</button>
+
+				<div align="left" class="minibox">
+					<p><strong>El Menor es:  <span id="resmenor"></span></strong></p>
+					<p><strong>El Mayor es:  <span id="resmayor"></span></strong></p>
+					<p><strong>El Número Moderno es:  <span id="resmoderno"></span></strong></p>
+				</div>
+			</form>
+		</div>
+
+		<div class="titulo">
+			<p><strong>2. DADO UN NUMERO QUE TENGA UN NÚMERO DE DIGITOS MAYOR O IGUAL A 4, ROTAR LOS
+NUMEROS PARES HACIA LA DERECHA.</strong></p>
+		</div>
+
+		<div class="box">
+			
+			<form>
+				<label><strong>Numero:  </strong></label>
+				<input class="border" type="Numero1" id="numero0" name="" placeholder="Escribe un Número">
+				<button class="btn btn-green" onclick="">Limpiar</button>
+				<br>
+				<br>
+
+				<button class="btn btn-green" type="button" onclick="rotar();">Rotar</button>
+
+				<div align="left" class="minibox">
+					<p><strong>Número Rotado:  <span id="rotado"></span></strong></p>
+				</div>
+			</form>
+		</div>
+
+		<div class="titulo">
+			<p><strong>3. REALIZAR EL TRIANGULO DE PASCAL.</strong></p>
+		</div>
+
+		<div class="box">
+			
+			<form>
+				<label><strong>Valor de N:  </strong></label>
+				<input class="border" type="Numero2" id="filas" name="" placeholder="Escribe un Número">
+				<button class="btn btn-green" onclick="">Limpiar</button>
+				<br>
+				<br>
+
+				<button class="btn btn-green" type="button" onclick="triangulo();">Triangulo</button>
+
+				<div align="center" class="minibox">
+					<p><strong>1<br><span id="fila1"></span><br><span id="fila2"></span><br><span id="fila3"></span><br><span id="fila4"></span><br><span id="fila5"></span><br><span id="fila6"></span><br><span id="fila7"></span><br><span id="fila8"></span><br><span id="fila9"></span></strong></p>
+					
+				</div>
+				
+			</form>
+		</div>
+	</section>
+	<script type="text/javascript" src="Script.js"></script>
+
+</body>
+</html>
